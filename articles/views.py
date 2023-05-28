@@ -223,7 +223,7 @@ class CommentView(APIView):
             )
 
 
-class ChangePostView(APIView):
+class ChangeView(APIView):
     """이미지 변환
 
     이미지 변환 코드를 불러오고 이미지의 이름을 바꿔줍니다.
