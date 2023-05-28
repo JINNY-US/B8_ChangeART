@@ -125,8 +125,7 @@ class ChangeSerializer(serializers.ModelSerializer):
         )
 
 class ImageChangeSerializer(serializers.ModelSerializer):
-    """이미지 저장 시에 사용하는 시리얼라이저
-    수정 가능성 높음"""
+    """이미지 저장 시에 사용하는 시리얼라이저"""
 
     user = serializers.SerializerMethodField()
 
